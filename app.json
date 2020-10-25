@@ -1,8 +1,0 @@
-{
-  "name": "Deno Example App",
-  "buildpacks": [
-    {
-      "url": "https://github.com/chibat/heroku-buildpack-deno.git"
-    }
-  ]
-}
