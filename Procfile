@@ -1,1 +1,1 @@
-web: deno run --allow-net index.ts --port $PORT
+web: deno run --allow-net=:${PORT} mod.ts --port ${PORT}
