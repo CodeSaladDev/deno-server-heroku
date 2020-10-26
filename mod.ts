@@ -7,7 +7,7 @@ const s = serve({ port });
 
 console.log(`Listening on :${port}`);
 
-// Respond to each request with a "Hello World!" HTML page
+// Respond to each request with an HTML page
 for await (const req of s) {
     req.respond({
         body: '<h1>Hello World!</h1>' +
